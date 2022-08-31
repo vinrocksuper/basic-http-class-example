@@ -1,0 +1,30 @@
+{
+  "name": "basic-http-class-example",
+  "version": "1.0.0",
+  "description": "basic node server",
+  "main": "./src/server.js",
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
+  },
+  "scripts": {
+    "pretest": "eslint ./src/ --fix",
+    "test": "echo \"test complete\"",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinrocksuper/basic-http-class-example.git"
+  },
+  "author": "Vincent Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinrocksuper/basic-http-class-example/issues"
+  },
+  "homepage": "https://github.com/vinrocksuper/basic-http-class-example#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
